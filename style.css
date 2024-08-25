@@ -1,0 +1,267 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+header{
+    display: flex;
+    background-color: #0abfbc;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header div a img{
+    width: 100px;
+    height: auto;
+}
+header div nav ul{
+    display: flex;
+}
+header div nav ul li{
+    margin-right: 30px;
+}
+header div nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+header div nav ul li a:hover{
+    color: #074443;
+    transition: 1s;
+}
+.sessao-01{
+    padding: 250px;
+    background-image: url(imagem/pizza-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.sessao-01 h1{
+    color: white;
+    font-size: 20px;
+    margin: 15px;
+}
+.sessao-01 p{
+    color: white;
+    font-size: 20px;
+    margin: 15px;
+    font-weight: 400;
+}
+.produtos{
+    padding: 250px;
+    background: linear-gradient(360deg, #ffc55f 8.33%, #ff4845 100%);
+}
+.produtos h2{
+    color: #ffc55f;
+    font-size: 50px;
+    margin-left: 350px;
+    margin-bottom: 20px;
+}
+.divi-pai{
+    display: flex;
+    justify-content: center;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.divi-pai div{
+    width: 250px;
+    height: 250px;
+    margin-right: 20px;
+}
+.divi-pai .divi-filho1{
+    background-image: url(imagem/pizza-calabroso.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.divi-pai .divi-filho2{
+    background-image: url(imagem/pizza-catupiry-frango.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.divi-pai .divi-filho3{
+    background-image: url(imagem/pizza-queijo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.divi-filho1:hover{
+    width: 270px;
+    height: 270px;
+    transition: 1s;
+    border-radius: 30px;
+}
+.divi-filho2:hover{
+    width: 270px;
+    height: 270px;
+    transition: 1s;
+    border-radius: 30px;
+}
+.divi-filho3:hover{
+    width: 270px;
+    height: 270px;
+    transition: 1s;
+    border-radius: 30px;
+}
+.divi-pai2{
+    display: flex;
+    justify-content: center;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.divi-pai2 div{
+    width: 250px;
+    height: 250px;
+    margin-right: 20px;
+    background-color: white;
+}
+.divi-pai2 .divi-filho4{
+    background-image: url(imagem/pizza-vegano.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.divi-pai2 .divi-filho5{
+    background-image: url(imagem/pizza-enrolada.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.divi-pai2 .divi-filho6{
+    background-image: url(imagem/mini-pizza.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.divi-filho4:hover{
+    width: 270px;
+    height: 270px;
+    transition: 1s;
+    border-radius: 30px;
+}
+.divi-filho5:hover{
+    width: 270px;
+    height: 270px;
+    transition: 1s;
+    border-radius: 30px;
+}
+.divi-filho6:hover{
+    width: 270px;
+    height: 270px;
+    transition: 1s;
+    border-radius: 30px;
+}
+/* aqui começa a minha procoção */
+.promoção{
+    padding: 250px;
+    background: linear-gradient(180deg, #ffc55f 8.33%, #ff4845 100%);
+}
+.promoção h2{
+    color: #ffec5e;
+    font-size: 50px;
+    margin-left: 350px;
+    margin-bottom: 20px;
+}
+.div-promo{
+    display: flex;
+    justify-content: center;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.div-promo div{
+    width: 250px;
+    height: 250px;
+    margin-right: 20px;
+}
+.filho-promo1{
+    background-image: url(imagem/pizza-pepperoni.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.filho-promo2{
+    background-image: url(imagem/pizza-calabroso.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.filho-promo3{
+    background-image: url(imagem/mini-pizza.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.filho-promo1:hover{
+    width: 270px;
+    height: 270px;
+    transition: 1s;
+    border-radius: 30px;
+}
+.filho-promo2:hover{
+    width: 270px;
+    height: 270px;
+    transition: 1s;
+    border-radius: 30px;
+}
+.filho-promo3:hover{
+    width: 270px;
+    height: 270px;
+    transition: 1s;
+    border-radius: 30px;
+}
+.div-promo2{
+    display: flex;
+    justify-content: center;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.div-promo2 div{
+    width: 250px;
+    height: 250px;
+    margin-right: 20px;
+    background-color: white;
+}
+.filho-promo4{
+    background-image: url(imagem/pizza-catupiry-frango.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.filho-promo5{
+    background-image: url(imagem/pizza-vegano.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.filho-promo6{
+    background-image: url(imagem/pizza-enrolada.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.filho-promo4:hover{
+    width: 270px;
+    height: 270px;
+    transition: 1s;
+    border-radius: 30px;
+}
+.filho-promo5:hover{
+    width: 270px;
+    height: 270px;
+    transition: 1s;
+    border-radius: 30px;
+}
+.filho-promo6:hover{
+    width: 270px;
+    height: 270px;
+    transition: 1s;
+    border-radius: 30px;
+}
+footer{
+    padding: 100px;
+    display: flex;
+    background-image: url(imagem/pizza-3.jpg);
+    justify-content: center;
+    align-items: center;
+}
