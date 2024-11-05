@@ -5,10 +5,17 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 header{
+    padding: 1%;
     display: flex;
-    background-color: #0abfbc;
+    background-color: #142026;
     align-items: center;
     justify-content: space-between;
+
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    box-shadow: 0 0.21rem 0.5rem white;
 }
 
 header div a img{
@@ -17,6 +24,7 @@ header div a img{
 }
 header div nav ul{
     display: flex;
+    
 }
 header div nav ul li{
     margin-right: 30px;
@@ -265,3 +273,5 @@ footer{
     justify-content: center;
     align-items: center;
 }
+
+
